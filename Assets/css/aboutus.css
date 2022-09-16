@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+  pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+  s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+  figure, header, nav, section, article, aside, footer, figcaption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    right: 0;
+    left: 0;
+  }
+
+  body{
+  }
+
+  .row{
+    margin-bottom: 30px;
+  }
+
+
+    header{
+        background: #FEFEFE;
+    }
+
+    header nav a img{
+        width: 130px;
+        height: 65px;
+    }
+
+    header nav ul li{
+        margin-left: 30px;
+    }
+
+    header nav ul li a{
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: black;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline{
+        padding-top: 134px;
+        padding-bottom: 100px;
+        background: #E7EBFC;
+    }
+
+    section#headline h1{
+        /* Headings/H1 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 72px;
+        max-width: 900px;
+        /* or 112% */
+
+        letter-spacing: -1.16px;
+        text-transform: capitalize;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+    }
+
+    section#headline p{
+        margin-top: 31px;
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 900px;
+        /* or 142% */
+
+        letter-spacing: -0.43px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl{
+        margin-top: 36px;
+    }
+
+    section#headline .girl .container-fluid img{
+        width: 90px;
+        height: 90px;
+    }
+
+    section#headline .girl .container-fluid .nama h5{
+        margin-top: 1rem;
+        /* Paragraph/18B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        letter-spacing: -0.32px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl .container-fluid .nama p{
+        margin-top: 9px;
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline .girl .container-fluid .nama p{
+        margin-top: 9px;
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+    }
+
+    section#headline button{        
+        background: #19345E;
+        border-radius: 1px;
+        width: 262px;
+        height: 56px;
+        color: #FFFFFF;
+        margin-top: 36px;
+    }
+
+    section#headline button img{
+        margin-left: 10px;
+    }
+
+    section#solution {
+        padding-top: 122px;
+        background: #E7EBFC;
+    }
+
+    section#solution h2{
+        margin: auto;
+        left: 40%;
+        max-width: 730px;
+        /* Headings/H2 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+
+        text-align: center;
+        letter-spacing: -0.94px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 52px;
+    }
+
+    section#solution .card-custom{
+        background: #FFFFFF;
+        border-radius: 3px;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    section#solution .card-custom .content-card{
+        margin: 0px 40px 32px 32px;
+    }
+
+    section#solution .card-custom .content-card h5{
+        /* Paragraph/24B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        /* identical to box height, or 142% */
+
+        letter-spacing: -0.43px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 12px;
+    }
+
+    section#solution .card-custom .content-card p{
+        /* Paragraph/16 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 40px;
+    }
+
+    section#solution .card-custom .content-card img{
+        width: 32px;
+        height: 32px;
+        margin-top: 40px;
+        margin-bottom: 56px;
+    }
+
+    section#solution .card-custom .content-card button{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+        
+        letter-spacing: -0.25px;
+        
+        /* Global/Primary */
+        
+        color: #19345E;
+
+        border: none;
+        background: none;
+    }
+
+    section#solution .card-custom .content-card button img{
+        margin-top: 3.4rem;
+        margin-left: 8px;
+        width: 20px;
+        height: 10px;
+    }
+
+    section#solution .text-center .btn{   
+        margin-top: -38px;   
+        background: #19345E;
+        border-radius: 1px;
+        width: 166px;
+        height: 56px;
+        color: #FFFFFF;
+        margin-top: 36px;
+    }
+
+    section#solution .text-center .btn img{
+        margin-left: 10px;
+    }
+
+    section#benefits{
+        margin-top: 132px;
+        background: #FFFFFF;
+    }
+
+    section#benefits h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+
+        letter-spacing: -0.94px;
+
+        /* Text / Gray 900 */
+
+        color: #18191F;
+        margin-bottom: 36px;
+    }
+
+    section#slide{
+        background: #FFFFFF;
+    }
+
+    section#slide button {
+        margin-top: 220px;
+        border: none;
+        background: none;
+    }
+
+    section#slide .content-text h1{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 52px;
+        /* or 124% */
+
+        letter-spacing: -0.76px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 73px;
+    }
+
+    section#slide .content-text h2{
+        /* Paragraph/24B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 34px;
+        /* identical to box height, or 142% */
+
+        letter-spacing: -0.43px;
+
+        /* Color/Grey/100 */
+
+        color: #1A1A1A;
+    }
+
+    section#slide .content-text p{
+        /* Paragraph/16 */
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+
+        letter-spacing: -0.29px;
+
+        /* Color/Grey/60 */
+
+        color: #767676;
+    }
+
+    section#meet{
+        padding-top: 127px;
+        background: #FFFFFF;
+    }
+
+    section#meet h1{
+        /* Headings/H2 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        /* identical to box height, or 119% */
+
+        letter-spacing: -0.94px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+    }
+
+    section#meet .card-meet{
+        margin-top: 55px;
+        /*height: 255px; */
+    }
+
+
+    section#meet .card-meet .card-head{
+        width: max-content;
+        background: #E7EBFC;
+        border-radius: 3px;
+        margin-bottom: 24px;
+        object-fit: cover;
+    }
+
+    section#meet .card-meet .card-body h1{
+        /* T/100 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 34px;
+        /* identical to box height, or 142% */
+
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+    }
+
+    section#closing{
+        padding-top: 123px;
+        background: #E7EBFC;
+    }
+
+    section#closing h1{
+        margin: auto;
+        left: 40%;
+        /* Headings/H2 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 62px;
+        /* or 119% */
+
+        text-align: center;
+        max-width: 900px;
+        letter-spacing: -0.94px;
+
+        /* Base/Text Primary */
+
+        color: #19345E;
+        margin-bottom: 24px;
+    }
+
+    section#closing p{
+        margin: auto;
+        left: 40%;
+        /* Paragraph/18 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+
+        text-align: center;
+        max-width: 828px;
+        letter-spacing: -0.32px;
+
+        /* Base/Text Secondary */
+
+        color: #1E1E1E;
+        margin-bottom: 61px;
+    }
+
+    section#closing .text-center .btn{   
+        margin-top: 50px;   
+        background: #19345E;
+        border-radius: 1px;
+        width: 198px;
+        height: 56px;
+        color: #FFFFFF;
+        margin-bottom: 68px;
+    }
+
+    section#solutionsection#closing .text-center .btn img{
+        margin-left: 10px;
+    }
+
+    section#closing .rectangle{
+        margin: auto;
+        left: 10%;
+        width: 1300px;
+        height: 5px;
+
+        background: #B4B4B4;
+        margin-bottom: 80px;
+    }
+
+    section#closing .container .brand-img{
+        height: 35px;
+        margin-left: 40px;
+        margin-bottom: 80px;
+    }
+
+    footer{
+        padding-top: 39px;
+        background: #19345E;    
+        padding-top: 80px;
+        overflow-y: hidden;
+    }
+
+    footer a img{
+        height: 66.83px;
+        margin-bottom: 21px;
+    }
+
+
+    footer p{
+        /* Paragraph/18B */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        /* identical to box height, or 156% */
+
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.32px;
+
+        /* Base/Text On Dark */
+
+        color: #FFFFFF;
+    }
+
+    footer ul{
+        list-style-type: none;
+        text-align: end;
+        margin-bottom: -40px;
+    }
+
+    footer ul li{
+        margin-top: 80px;
+        margin-left: 22px;
+        display: inline-block;
+   
+    }
+
+    footer ul li a {
+        text-decoration: none;
+         /* Paragraph/16 */
+         font-family: 'Inter';
+         font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        letter-spacing: -0.29px;
+     
+        /* Base/Text On Dark */
+     
+        color: #FFFFFF;        
+      }
+
+
+      footer .rectangle{
+        margin: auto;
+        left: 10%;
+        width: 1300px;
+        height: 5px;
+
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.08;
+        margin-bottom: 40px;
+    }
+
+    footer .text-pos{
+        text-align: end;
+    }
+
+    footer .text-pos span{
+        /* Paragraph/14 */
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        
+        letter-spacing: -0.25px;
+
+        /* Base/Text On Dark */
+
+        color: #FFFFFF;
+    }

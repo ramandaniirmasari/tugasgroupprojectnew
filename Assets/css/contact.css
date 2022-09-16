@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+/* CSS Navbar */
+nav {
+  background-color: white;
+  padding-right: 10rem;
+}
+
+/* Akhir CSS Navbar */
+
+/* CSS Part 2 */
+
+#part2 {
+  position: relative;
+}
+
+#part2 .container-fluid {
+  background-color: #e7ebfc;
+}
+
+@media (min-width: 480px) {
+  #part2 h1 {
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 5%;
+  }
+
+  #part2 .paragraph {
+    font-size: 16px;
+    width: 35%;
+    text-align: start;
+    margin-top: 10px;
+  }
+}
+#part2 h1 {
+  color: #19345e;
+}
+
+#button .text-white {
+  background-color: #19345e;
+  @media (min-width: 480px) {
+    width: 60%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+#button .text-dark {
+  background-color: white;
+  @media (min-width: 480px) {
+    width: 70%;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+#parent-logo {
+  background-color: white;
+}
+
+@media (min-width: 480px) {
+  #logo {
+    margin-left: -8%;
+  }
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input.form-control,
+  select.form-select,
+  textarea.form-control {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  #container-form button {
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #19345e;
+    color: white;
+    border: 0;
+  }
+
+/* CSS Form */
+@media (min-width: 480px) {
+  #container-form {
+    position: absolute;
+    z-index: 1;
+    top: 115px;
+    left: 60%;
+    width: 30%;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+  }
+}
+
+#container-form h3 {
+  color: #19345e;
+  font-size: 25px;
+}
+
+#container-form p {
+  font-size: 12px;
+  color: gray;
+}
+
+
+/* Akhir CSS Form */
+
+/* AKhir CSS Part 2 */
+
+/* CSS Part 3 */
+#part3 h2 {
+  color: #19345e;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#part3 .paragraph {
+  font-size: 14px;
+  color: gray;
+  line-height: 5px;
+}
+
+.card-img-top1 {
+  height: 290px;
+  object-fit: cover;
+}
+
+.card-img-top2 {
+  height: 290px;
+  object-fit: cover;
+}
+
+.card h5 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #19345e;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+.card-body a {
+  color: #19345e;
+  font-weight: bolder;
+  margin-left: -10px;
+}
+
+/* Akhir CSS Part 3 */
+
+/* CSS Footer */
+footer {
+  background-color: #19345e;
+}
+
+#button-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 11.5px;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .col-md-5 {
+  line-height: normal;
+  font-size: 11.5px;
+}
+
+footer .col-md-4 {
+  font-size: 11.5px;
+}
+
+.copyright {
+  width: max-content;
+}
+
+/* Akhir CSS Footer */
